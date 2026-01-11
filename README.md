@@ -63,19 +63,20 @@ git push -u origin vivo
 
 ##make a branch name lava and code to it 
 
-cd "C:\Users\bhanu\OneDrive\Desktop\Java Codes\Codes-"
+>>>cd "C:\Users\bhanu\OneDrive\Desktop\Java Codes\Codes-"
 
-git checkout -b lava
+>>>git checkout -b lava
 
-cd "C:\Users\bhanu\OneDrive\Desktop\Java Codes"
-Copy-Item -Path "LargestCalculator.java","evenodd.java","fibonacci.java","inputnumber.java","largest3no.java","largestnumber.java" -Destination "Codes-\" -Force
+>>>cd "C:\Users\bhanu\OneDrive\Desktop\Java Codes"
+   Copy-Item -Path       "LargestCalculator.java","evenodd.java","fibonacci.java","inputnumber.java","largest3no.java","largestnumber.java" -Destination "Codes-\" -Force
 
-git add .
-git commit -m "Add LargestCalculator, evenodd, fibonacci, inputnumber, largest3no, largestnumber"
+>>>git add .
+>>>git commit -m "Add LargestCalculator, evenodd, fibonacci, inputnumber, largest3no, largestnumber"
 
-git push -u origin lava
+>>>git push -u origin lava
 
 ##make branch name apple and add code to it 
+
 
 
 
