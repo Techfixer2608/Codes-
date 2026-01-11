@@ -77,6 +77,19 @@ git push -u origin vivo
 
 ##make branch name apple and add code to it 
 
+>>>cd "C:\Users\bhanu\OneDrive\Desktop\Java Codes\Codes-"
+
+>>>git checkout -b apple
+>>>cd "C:\Users\bhanu\OneDrive\Desktop\Java Codes"
+>>>Copy-Item -Path "BinarySearch.java","armstrongnumber.java","casecheck.java","conditioning.java","demo.java" -Destination "Codes-\" -Force
+
+>>>git add .
+>>>git commit -m "Add BinarySearch, armstrongnumber, casecheck, conditioning, demo"
+
+>>>git push -u origin apple
+
+
+
 
 
 
