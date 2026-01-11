@@ -15,19 +15,35 @@ git commit -m "Add README to main"
 git push origin main
 
 
->>>Adding codes to file name one plus
-cd "C:\Users\bhanu\OneDrive\Desktop\Java Codes\Codes-"     // run command in powershell
-git checkout -b oneplus                         // create and switch to new brnach named oneplus 
+>>>ADDING CODES TO FILE NAME ONE PLUS 
+cd "C:\Users\bhanu\OneDrive\Desktop\Java Codes\Codes-"     
 
+ 
+ >>>CREATE AND SWITCH TO BRANCH
+  git checkout -b oneplus                          
+
+
+>>>COPY FILES
 cd "C:\Users\bhanu\OneDrive\Desktop\Java Codes"
-Copy-Item -Path "SumofArray.java","sumoftwonumbers.java","SwitchDemo.java","temp.java","tempCodeRunnerFile.java","typecasting.java" -Destination "Codes-\" -Force
-
->>>git add.  // Stage all files together
-
-git commit -m "Add Java files: SumofArray, sumoftwonumbers, SwitchDemo, temp, tempCodeRunnerFile, typecasting"
+Copy-Item -Path " MatrixMultiplication.java" "ReverseNumber.java" "palindrome.java"  "simpleinterest.java" "loops.java" ""SumofArray.java","sumoftwonumbers.java","SwitchDemo.java","temp.java","tempCodeRunnerFile.java","typecasting.java" -Destination "Codes-\" -Force
 
 
->>>git push -u origin oneplus         // push branch 
+
+>>>STAGE ALL FILES TOGETHER
+git add.
+ 
+
+>>>COMMIT IN ONE MESSAGE
+git commit -m "Add Java files: MatrixMultiplication ,ReverseNumber , palindrome , simpleinterest , loops,  SumofArray , sumoftwonumbers, SwitchDemo, temp, tempCodeRunnerFile, typecasting"  
+
+
+>>>PUSH BRANCH
+git push -u origin oneplus         
+
+
+
+
+
 
 
 
