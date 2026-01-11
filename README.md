@@ -38,7 +38,32 @@ git commit -m "Add Java files: MatrixMultiplication ,ReverseNumber , palindrome 
 
 
 >>>PUSH BRANCH
-git push -u origin oneplus         
+git push -u origin oneplus
+
+
+##making a branch name vivo and add codes to it 
+
+>>>MOVE INTO GITHUB REPOSITORY 
+>>>cd "C:\Users\bhanu\OneDrive\Desktop\Java Codes\Codes-"
+
+>>>CREATE A NEW BRANCH NAMED VIVO 
+git checkout -b vivo
+
+>>>COPY FILES INTO REPO AND ADD ALL FILES AT ONCE
+cd "C:\Users\bhanu\OneDrive\Desktop\Java Codes"
+Copy-Item -Path "largestcalculator.java","evenodd.java","fibonacci.java","inputnumber.java","largest3no.java","largestnumber.java" -Destination "Codes-\" -Force
+gir add.
+
+>>>COMMIT ALL FILES AT ONCE
+git commit -m "Add largest calculator, evenodd, fibonacci, input number, largest3no, largestnumber"
+
+>>>PUSH BRANCH TO GITHUB
+git push -u origin vivo
+
+
+##make a branch name lava and code to it 
+
+
 
 
 
