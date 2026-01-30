@@ -89,6 +89,22 @@ git push -u origin vivo
 >>>git push -u origin apple
 
 
+##COMMAND TO PUSH ANY CODE FROM FOLDER IN GITHUB BRANCH INSIDE A PARTICULAR FOLDER 
+cd..                                                        // this backs us to desktop 
+git clone https://github.com/Techfixer2608/Codes-.git      // this clone the repository 
+cd Codes-                                                 // Codes is my repository name 
+git checkout apple                           // switch to branch name apple inside Codes- folder
+copy "..\Java Codes\Primenumber.java" .                 // copy file from java codes folder 
+git add Primenumber.java                               // add codes named Primenumber
+git commit -m "Added Primenumber Java file"           // commit
+git add Primenumber.java                             // push
+
+
+
+
+
+
+
 
 
 
